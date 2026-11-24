@@ -21,7 +21,7 @@ def main() -> None:
     sentences = [s for s in STORY.split(". ") if s.strip()]
     assert len(sentences) == 2, f"expected exactly 2 sentences, got {len(sentences)}"
     assert len(STORY) <= 400, f"story is {len(STORY)} chars, over the 400 limit"
-    out_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
+    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
     os.makedirs(out_dir, exist_ok=True)
     out_path = os.path.join(out_dir, "entry.txt")
     with open(out_path, "w", encoding="utf-8") as f:
