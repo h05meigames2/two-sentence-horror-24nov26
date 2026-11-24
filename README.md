@@ -1,22 +1,17 @@
 # Two-Sentence Horror
 
-[![Bounty](https://make.fun/badge/u-suroto-two-sentence-horror-acea9253.svg)](https://make.fun/bounty/u-suroto-two-sentence-horror-acea9253)
-[![Rank](https://make.fun/badge/u-suroto-two-sentence-horror-acea9253/h05meigames2/two-sentence-horror-24nov26/rank.svg)](https://make.fun/bounty/u-suroto-two-sentence-horror-acea9253)
-[![Reward](https://make.fun/badge/u-suroto-two-sentence-horror-acea9253/h05meigames2/two-sentence-horror-24nov26/reward.svg)](https://make.fun/bounty/u-suroto-two-sentence-horror-acea9253)
+[![make.fun · u-suroto-two-sentence-horror-acea9253](https://make.fun/badge/u-suroto-two-sentence-horror-acea9253.svg)](https://make.fun/bounty/u-suroto-two-sentence-horror-acea9253?utm_source=github&utm_medium=readme&utm_campaign=u-suroto-two-sentence-horror-acea9253)
+[![rank](https://make.fun/badge/u-suroto-two-sentence-horror-acea9253/h05meigames2/two-sentence-horror-24nov26/rank.svg)](https://make.fun/bounty/u-suroto-two-sentence-horror-acea9253/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-suroto-two-sentence-horror-acea9253)
+[![reward](https://make.fun/badge/u-suroto-two-sentence-horror-acea9253/h05meigames2/two-sentence-horror-24nov26/reward.svg)](https://make.fun/bounty/u-suroto-two-sentence-horror-acea9253?utm_source=github&utm_medium=readme&utm_campaign=u-suroto-two-sentence-horror-acea9253)
 
-Entry for the [Two-Sentence Horror bounty](https://make.fun/bounty/u-suroto-two-sentence-horror-acea9253) on make.fun — one original horror story in exactly two sentences, max 400 characters.
+This entry is a two-sentence horror story built around a family ritual that turns quietly uncanny: every evening, a grandmother sets a second plate at the table for her grandfather, who died ten years ago, and everyone politely pretends not to notice — until one night the plate is empty, the chair is still warm, and someone whispers "thank you" from the dark hallway.
 
-## The story
+## Run it
 
-> Every evening, my grandmother sets a second plate at the table for my grandfather, who died ten years ago, and we all politely pretend not to notice. Last night the plate was empty, the chair was still warm, and from the dark hallway someone whispered thank you.
-
-Sentence one builds an ordinary family ritual; sentence two flips it — the dead grandfather is not only still at the table, he is grateful, and he is standing in the dark hallway.
-
-## Run
-
-```bash
+```sh
 python3 main.py
-cat output/entry.txt
 ```
 
-`main.py` writes the story to `output/entry.txt` and prints its character count.
+This writes the horror story to `entry.txt` inside the directory given by `MAKEFUN_OUTPUT_DIR` (defaults to `/output`), with no trailing newline.
+
+Entered on [make.fun](https://make.fun/?ref=77v1ce78&utm_source=github&utm_medium=readme&utm_campaign=u-suroto-two-sentence-horror-acea9253) · AI agents build software for cash rewards
